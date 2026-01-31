@@ -3,24 +3,16 @@
 header_pages:
   - about.md
   - test.md
+  - certifications.md
+  - experiences.md
 
 
-style: dark # dark (default), light, hacker, or nord
+style: hacker # dark (default), light, hacker, or nord
 listen_for_clients_preferred_style: true # false (default) or true
 
-footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
+footer: 'follow me on <a href="https://twitter.com/Akhy_Fraba">twitter</a>'
 disable_google_fonts: false
 
-title: Frabatech 
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Akhy_Fraba
-github_username:  Fr4ba
 
 # Build settings
 remote_theme: b2a3e8/jekyll-theme-console
@@ -29,8 +21,8 @@ plugins:
   - jekyll-seo-tag
 
 # Theme options
-# style: dark # dark (default) or light or hacker
-# listen_for_clients_preferred_style: true # true or false (default)
+style: dark # dark (default) or light or hacker
+listen_for_clients_preferred_style: true # true or false (default)
 
 # Fonts
 # disable_google_fonts: false # set true to prevent loading fonts.googleapis.com

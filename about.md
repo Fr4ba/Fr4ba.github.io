@@ -1,18 +1,28 @@
 ---
-layout: home
-title: About
-permalink: /about/
+layout: default
+title: About/
+permalink: /
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## 👨‍💻 Soufiane AFIFI 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+🎓 **ESD Apprentice Engineer** — *ENI School, Nantes* 
+🟣 **Network & Security Engineer at Metsys** — *Nantes, France*  
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+22-year-old IT professional specializing in **network security and infrastructure**.  
+Currently pursuing an **ESD engineering degree through an apprenticeship at ENI School**, while continuing my professional journey at **Metsys** in Nantes.
+
+Driven by a strong passion for **Cybersecurity and Cyber Defense**, I actively develop my skills through:
+- 🔐 Self-directed learning on a wide range of **cybersecurity topics**
+- 🧠 Continuous technology watch and hands-on experimentation
+- 🛡️ A security-first mindset applied to systems, networks, and cloud environments
+
+💡 Curious, motivated, and security-oriented, I aim to grow as a **future cybersecurity engineer**, bridging operational expertise with defensive strategies.
 
 
-[jekyll-organization]: https://github.com/jekyll
+Join me on [linkedin](https://www.linkedin.com/in/soufiane-afifi-a2238022a/) 
+Check Metsys [website](https://www.metsys.fr/) for job opportunity
+
+Go check ESD & Metsys Websites bellow
+
+[![ESD](images/logo/esd.png)](https://esdacademy.eu/)     [![Metsys](images/logo/Logo-metsys.png)](https://www.metsys.fr/)
