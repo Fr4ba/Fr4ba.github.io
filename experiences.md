@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Experiences
+layout: default
+title: Experiences/
 permalink: /experiences/
 ---
 ## 💼 Professional Experience

@@ -2,12 +2,11 @@
 
 header_pages:
   - about.md
-  - test.md
   - certifications.md
   - experiences.md
 
 
-style: hacker # dark (default), light, hacker, or nord
+style: dark # dark (default), light, hacker, or nord
 listen_for_clients_preferred_style: true # false (default) or true
 
 footer: 'follow me on <a href="https://twitter.com/Akhy_Fraba">twitter</a>'
@@ -19,10 +18,6 @@ remote_theme: b2a3e8/jekyll-theme-console
 # Optional but recommended
 plugins:
   - jekyll-seo-tag
-
-# Theme options
-style: dark # dark (default) or light or hacker
-listen_for_clients_preferred_style: true # true or false (default)
 
 # Fonts
 # disable_google_fonts: false # set true to prevent loading fonts.googleapis.com

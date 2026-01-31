@@ -25,4 +25,4 @@ Check Metsys [website](https://www.metsys.fr/) for job opportunity
 
 Go check ESD & Metsys Websites bellow
 
-[![ESD](images/logo/esd.png)](https://esdacademy.eu/)     [![Metsys](images/logo/Logo-metsys.png)](https://www.metsys.fr/)
+[![ESD](images/logo/esd.png)](https://esdacademy.eu/) [![Logometsys](images/logo/Logometsys.png)](https://www.metsys.fr/)
