@@ -24,4 +24,4 @@ Join me on [linkedin](https://www.linkedin.com/in/soufiane-afifi-a2238022a/)
 
 Go check ESD & Metsys Websites bellow for oppotunity
 
-[![ESD](images/logo/esd.png)](https://esdacademy.eu/)   [![Logometsys](images/logo/Logometsys.png)](https://www.metsys.fr/)
+[![ESD](images/logo/esd.png)](https://esdacademy.eu/)    [![Metsys](images/logo/LogoMetsys.png)](https://www.metsys.fr/)
