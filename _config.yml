@@ -6,8 +6,8 @@ header_pages:
   - experiences.md
 
 
-style: dark # dark (default), light, hacker, or nord
-listen_for_clients_preferred_style: true # false (default) or true
+style: hacker # dark (default), light, hacker, or nord
+listen_for_clients_preferred_style: false # false (default) or true
 
 footer: 'follow me on <a href="https://twitter.com/Akhy_Fraba">twitter</a>'
 disable_google_fonts: false

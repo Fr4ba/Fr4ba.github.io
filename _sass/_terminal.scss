@@ -1,0 +1,31 @@
+.terminal-effect {
+  background: #0d1117;
+  color: #58a6ff;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  padding: 1.8rem 2rem;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.12);
+  min-height: 300px;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  margin: 1.5rem 0 2rem;
+}
+
+.terminal-container {
+  // vide, le JS remplit
+}
+
+.terminal-effect::after {
+  content: "▋" !important;
+  display: inline-block !important;
+  animation: blink 1.1s step-end infinite !important;
+  color: red !important;          // ← pour le voir facilement pendant le test
+  font-size: 1.4rem !important;
+}
+.blinking-cursor::after {
+  animation: blink 0.9s step-end infinite !important;
+}

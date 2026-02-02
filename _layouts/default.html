@@ -12,15 +12,15 @@ connect-src 'self';
 base-uri 'self';
 form-action 'none';
 img-src 'self' https: data:;
-style-src 'self' https://fonts.googleapis.com;
+style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
 font-src 'self' https://fonts.gstatic.com data:;
 media-src 'self';
 object-src 'none';
 child-src 'self';
-script-src 'self';
+script-src 'self' 'unsafe-inline';
 {%- endcapture -%}
 {%- capture csp_final -%}{{ csp | strip | replace: '\n', ' ' }} {%- if site.csp_extra %} {{ site.csp_extra }}{%- endif -%}{%- endcapture -%}
-<meta http-equiv="Content-Security-Policy" content="{{ csp_final | strip }}" />
+<meta http-equiv="Content-Security-Policy" content="{{ csp_final | strip }}">
 <meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
 <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
 
@@ -31,12 +31,22 @@ script-src 'self';
 
       {%- include header.html -%}
 
-    <main>
-      {{ content }}
-    </main>
+<main>
+  <!-- Zone visible avec l'effet terminal -->
+<div class="terminal-effect blinking-cursor">
+  <div class="terminal-container"></div>
+</div>
 
+  <!-- Le vrai contenu (Markdown rendu en HTML) caché pour le JS -->
+  <div id="hidden-markdown" style="display: none;">
+    {{ content }}
     {%- include footer.html -%}
+  </div>
+</main>
+
+   <!--  {%- include footer.html -%} -->
 
     </div>
+    <script src="{{ '/assets/js/typewriter.js' | relative_url }}"></script>
   </body>
 </html>

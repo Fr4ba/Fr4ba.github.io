@@ -13,16 +13,15 @@ permalink: /
 Currently pursuing an **ESD engineering degree through an apprenticeship at ENI School**, while continuing my professional journey at **Metsys** in Nantes.
 
 Driven by a strong passion for **Cybersecurity and Cyber Defense**, I actively develop my skills through:
-- 🔐 Self-directed learning on a wide range of **cybersecurity topics**
-- 🧠 Continuous technology watch and hands-on experimentation
-- 🛡️ A security-first mindset applied to systems, networks, and cloud environments
+ 🔐 Self-directed learning on a wide range of **cybersecurity topics**
+ 🧠 Continuous technology watch and hands-on experimentation
+ 🛡️ A security-first mindset applied to systems, networks, and cloud environments
 
 💡 Curious, motivated, and security-oriented, I aim to grow as a **future cybersecurity engineer**, bridging operational expertise with defensive strategies.
 
 
 Join me on [linkedin](https://www.linkedin.com/in/soufiane-afifi-a2238022a/) 
-Check Metsys [website](https://www.metsys.fr/) for job opportunity
 
-Go check ESD & Metsys Websites bellow
+Go check ESD & Metsys Websites bellow for oppotunity
 
-[![ESD](images/logo/esd.png)](https://esdacademy.eu/) [![Logometsys](images/logo/Logometsys.png)](https://www.metsys.fr/)
+[![ESD](images/logo/esd.png)](https://esdacademy.eu/)   [![Logometsys](images/logo/Logometsys.png)](https://www.metsys.fr/)
