@@ -33,18 +33,27 @@ script-src 'self' 'unsafe-inline';
 
 <main>
   <!-- Zone visible avec l'effet terminal -->
-<div class="terminal-effect blinking-cursor">
-  <div class="terminal-container"></div>
-</div>
+  <div class="terminal-effect">
+    <div class="terminal-container"></div>
+  </div>
 
   <!-- Le vrai contenu (Markdown rendu en HTML) caché pour le JS -->
   <div id="hidden-markdown" style="display: none;">
     {{ content }}
-    {%- include footer.html -%}
+
+    <!-- <ul>
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = "%Y-%m-%d" -%}
+      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+    {%- endfor -%}
+  </ul> -->
+    <!--{%- include footer.html -%}-->
   </div>
 </main>
 
-   <!--  {%- include footer.html -%} -->
+{%- include footer.html -%} 
 
     </div>
     <script src="{{ '/assets/js/typewriter.js' | relative_url }}"></script>

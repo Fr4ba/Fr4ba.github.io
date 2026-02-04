@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
         blockIndex++;
         processNextBlock();
-      }, 1800); // ← ajuste ici si trop long/court (1500–2500 ms)
+      }, 1500); // ← ajuste ici si trop long/court (1500–2500 ms)
 
     } else {
       // Bloc texte normal → clone + typewriter sur le texte
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             node.textContent = txt.substring(0, charIdx + 1);
             charIdx++;
             container.scrollTop = container.scrollHeight;
-            setTimeout(typeChar, 22);
+            setTimeout(typeChar, 10);
             return;
           }
           charIdx = 0;
@@ -66,14 +66,14 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
           blockIndex++;
           processNextBlock();
-        }, 800);
+        }, 500);
       }
 
       // Sauvegarde texte original avant de vider
       textNodes.forEach(n => n.originalText = n.textContent);
       textNodes.forEach(n => n.textContent = '');
 
-      setTimeout(typeChar, 300);
+      setTimeout(typeChar, 200);
     }
   }
 
@@ -89,5 +89,5 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Démarrage
-  setTimeout(processNextBlock, 700);
+  setTimeout(processNextBlock, 500);
 });

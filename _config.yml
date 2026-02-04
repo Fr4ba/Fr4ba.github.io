@@ -4,12 +4,12 @@ header_pages:
   - about.md
   - certifications.md
   - experiences.md
+  - posts.md
 
-
-style: hacker # dark (default), light, hacker, or nord
+style: dark # dark (default), light, hacker, or nord
 listen_for_clients_preferred_style: false # false (default) or true
 
-footer: 'follow me on <a href="https://twitter.com/Akhy_Fraba">twitter</a>'
+footer: '<a href="https://github.com/Fr4ba/"><img src="/images/logo/github-petit.png" alt="github" style="width:15px;height:15px;"><a href="https://www.linkedin.com/in/soufiane-afifi-a2238022a/"><img src="/images/logo/linkedin-petit.png" alt="linkedin" style="width:16px;height:16px;"><a href="https://discord.gg/jbWM2n9xSp"><img src="/images/logo/Discord-Logo-petit.png" alt="discord" style="width:18px;height:14px;"><a href="https://twitter.com/Akhy_Fraba"><img src="/images/logo/X-petit.png" alt="X" style="width:16px;height:14px;"></a>'
 disable_google_fonts: false
 
 

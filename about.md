@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: home
 title: About/
 permalink: /
 ---
 
 ## 👨‍💻 Soufiane AFIFI 
-
 🎓 **ESD Apprentice Engineer** — *ENI School, Nantes* 
 🟣 **Network & Security Engineer at Metsys** — *Nantes, France*  
 
